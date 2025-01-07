@@ -9,7 +9,12 @@ const Footer = () => {
           const { id, href, icon } = link
           return (
             <li key={id}>
-              <a href={href} target="_blank" className="footer-icon">
+              <a
+                href={href}
+                target="_blank"
+                className="footer-icon"
+                rel="noopener noreferrer"
+              >
                 <i className={icon}></i>
               </a>
             </li>

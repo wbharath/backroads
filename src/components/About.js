@@ -20,7 +20,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#" className="btn">
+          <a href="#about" className="btn" rel="noopener noreferrer">
             read more
           </a>
         </article>
